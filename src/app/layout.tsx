@@ -17,7 +17,7 @@ const aldrich = Aldrich({
 export const metadata: Metadata = {
 	metadataBase: new URL("https://mjba.my"),
 	title: {
-		default: "えめじ",
+		default: "itzkr0bus",
 		template: "%s",
 	},
 	description:
@@ -35,9 +35,9 @@ export const metadata: Metadata = {
 		"Otaku",
 		"Kawaii",
 	],
-	authors: [{ name: "iaMJ" }],
-	creator: "iaMJ",
-	publisher: "iaMJ",
+	authors: [{ name: "itzkr0bus" }],
+	creator: "itzkr0bus",
+	publisher: "itzkr0bus",
 	robots: {
 		index: true,
 		follow: true,
@@ -46,25 +46,25 @@ export const metadata: Metadata = {
 		type: "website",
 		locale: "en_US",
 		url: "https://mjba.my",
-		siteName: "MJ's Portfolio",
-		title: "えめじ",
+		siteName: "itzkr0bus's Portfolio",
+		title: "itzkr0bus",
 		description:
-			"Hi! I'm MJ, a passionate developer who loves anime and gaming. Welcome to my portfolio! ♡(˶˃ ᵕ ˂˶)♡",
+			"Hi! I'm itzkr0bus, a passionate developer who loves anime and gaming. Welcome to my portfolio! ♡(˶˃ ᵕ ˂˶)♡",
 		images: [
 			{
 				url: "/icon.svg",
 				width: 200,
 				height: 200,
-				alt: "MJ's Portfolio",
+				alt: "itzkr0bus's Portfolio",
 			},
 		],
 	},
 	twitter: {
 		card: "summary_large_image",
-		title: "えめじ",
+		title: "itzkr0bus",
 		description:
-			"Hi! I'm MJ, a passionate developer who loves anime and gaming. Welcome to my portfolio! ♡(˶˃ ᵕ ˂˶)♡",
-		creator: "@MJ",
+			"Hi! I'm itzkr0bus, a passionate developer who loves anime and gaming. Welcome to my portfolio! ♡(˶˃ ᵕ ˂˶)♡",
+		creator: "@itzkr0bus",
 		images: ["/icon.svg"],
 	},
 	alternates: {

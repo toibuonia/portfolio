@@ -73,7 +73,7 @@ export default function AnimePage() {
 						</p>
 					</div>
 					<Link
-						href="https://myanimelist.net/profile/1MJ"
+						href="https://myanimelist.net/profile/itzkr0bus"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="flex items-center gap-2 px-4 py-2 bg-[#ffb6c1]/20 hover:bg-[#ffb6c1]/30 text-[#ffb6c1] rounded-lg border border-[#ffb6c1]/30 transition-colors whitespace-nowrap"

@@ -9,6 +9,7 @@ import {
 	FaCode,
 	FaComments,
 	FaDiscord,
+	FaFacebook,
 	FaFile,
 	FaGithub,
 	FaHome,
@@ -16,6 +17,7 @@ import {
 	FaSteam,
 	FaTv,
 } from "react-icons/fa";
+import { SiGmail } from "react-icons/si";
 
 export default function Navbar() {
 	const pathname = usePathname();
@@ -53,14 +55,14 @@ export default function Navbar() {
 					className="rounded-full"
 				/>
 				<h1 className="text-lg font-bold text-[#ffb6c1] tracking-wide truncate">
-					えめじ
+					itzkr0bus
 				</h1>
 			</div>
 
 			{/* Floating Right Header */}
 			<div className="fixed top-6 right-6 z-50 bg-[#13111C]/95 backdrop-blur-md p-3 rounded-2xl shadow-xl border border-[#ffb6c1]/20 flex items-center gap-5">
 				<a
-					href="https://dc.gg/tx"
+					href="https://discord.com/users/886779922851434516"
 					target="_blank"
 					rel="noopener noreferrer"
 					className="text-[#ffb6c1]/70 hover:text-[#ffb6c1] hover:scale-125 transition-all duration-300"
@@ -69,22 +71,22 @@ export default function Navbar() {
 					<FaDiscord size={24} />
 				</a>
 				<a
-					href="https://github.com/idMJA"
+					href="https://facebook.com/YuuIride"
 					target="_blank"
 					rel="noopener noreferrer"
 					className="text-[#ffb6c1]/70 hover:text-[#ffb6c1] hover:scale-125 transition-all duration-300"
-					aria-label="GitHub"
+					aria-label="Facebook"
 				>
-					<FaGithub size={24} />
+					<FaFacebook size={24} />
 				</a>
 				<a
-					href="https://github.com/idMJA/portfolio"
+					href="mailto:canbinh.5079@gmail.com"
 					target="_blank"
 					rel="noopener noreferrer"
 					className="text-[#ffb6c1]/70 hover:text-[#ffb6c1] hover:scale-125 transition-all duration-300"
-					aria-label="Website"
+					aria-label="Email"
 				>
-					<FaFile size={24} />
+					<SiGmail size={24} />
 				</a>
 			</div>
 

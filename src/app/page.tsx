@@ -8,7 +8,7 @@ export default function Home() {
 				<h1 className="text-3xl md:text-4xl font-bold mb-4 tracking-wide">
 					<span className="text-[#ffb6c1]">About</span>
 					<span className="text-white"> Me</span>
-					<span className="text-[#ffb6c1]"> ٩(◕‿◕｡)۶</span>
+					<span className="text-[#ffb6c1]"> ≽^•⩊•^≼</span>
 				</h1>
 
 				<div className="flex flex-col lg:flex-row gap-6 lg:gap-12">
@@ -21,11 +21,11 @@ export default function Home() {
 							I am not a Discord Bot Developer and a beginner Frontend Developer
 							who enjoys creating discord bots and websites maybe? I like to
 							create weird and somewhat different things, sorry I&apos;m still a
-							beginner. (つ≧▽≦)つ
+							beginner. ദ്ദി(ᵔᗜᵔ)
 						</p>
 
 						<p className="text-gray-300 leading-relaxed">
-							My favorite Programming Languages are JavaScript and TypeScript. I
+							My favorite Programming Languages are SleepScript and LọScript. I
 							also like to build websites using Next.JS, and Tailwind CSS.
 							Sometimes I use Java or Rust for backend. For Discord Bots I like
 							to create using Discord.JS and Seyfert as the library.

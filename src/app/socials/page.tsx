@@ -2,12 +2,14 @@ import type { Metadata, Viewport } from "next";
 import Link from "next/link";
 import {
 	FaDiscord,
+	FaFacebook,
 	FaGithub,
+	FaInstagram,
 	FaReddit,
 	FaSpotify,
 	FaSteam,
 } from "react-icons/fa";
-import { SiBluesky } from "react-icons/si";
+import { SiBluesky, SiGmail, SiOnlyfans } from "react-icons/si";
 
 export const metadata: Metadata = {
 	title: "Socials",
@@ -21,44 +23,44 @@ export const viewport: Viewport = {
 
 const socialLinks = [
 	{
-		name: "Bluesky",
-		icon: <SiBluesky size={24} />,
-		url: "https://bsky.app/profile/mjba.my",
+		name: "Gmail",
+		icon: <SiGmail size={24} />,
+		url: "mailto:canbinh.5079@gmail.com",
 		color:
 			"bg-[#1DA1F2]/10 hover:bg-[#1DA1F2]/20 text-[#1DA1F2] border-[#1DA1F2]/30",
 	},
 	{
-		name: "GitHub",
-		icon: <FaGithub size={24} />,
-		url: "https://github.com/idMJA",
+		name: "Instagram",
+		icon: <FaInstagram size={24} />,
+		url: "https://www.instagram.com/tentaolabinh",
 		color:
 			"bg-[#6e5494]/10 hover:bg-[#6e5494]/20 text-white border-[#6e5494]/30",
 	},
 	{
-		name: "Steam",
-		icon: <FaSteam size={24} />,
-		url: "https://steamcommunity.com/id/MJBD/",
+		name: "OnlyFans",
+		icon: <SiOnlyfans size={24} />,
+		url: "https://onlyfans.uk/yuu",
 		color:
 			"bg-[#1b2838]/10 hover:bg-[#1b2838]/20 text-white border-[#1b2838]/30",
 	},
 	{
 		name: "Spotify",
 		icon: <FaSpotify size={24} />,
-		url: "https://open.spotify.com/user/8116baq16nwq1sab8c5dy3rrx",
+		url: "https://open.spotify.com/user/fga3qjr87mon59z306by4eom3",
 		color:
 			"bg-[#1DB954]/10 hover:bg-[#1DB954]/20 text-[#1DB954] border-[#1DB954]/30",
 	},
 	{
-		name: "Reddit",
-		icon: <FaReddit size={24} />,
-		url: "https://www.reddit.com/u/0MJA",
+		name: "Facebook",
+		icon: <FaFacebook size={24} />,
+		url: "https://www.facebook.com/YuuIride",
 		color:
 			"bg-[#FF4500]/10 hover:bg-[#FF4500]/20 text-white border-[#FF4500]/30",
 	},
 	{
 		name: "Discord",
 		icon: <FaDiscord size={24} />,
-		url: "https://discord.com/users/885731228874051624",
+		url: "https://discord.com/users/886779922851434516",
 		color:
 			"bg-[#5865F2]/10 hover:bg-[#5865F2]/20 text-[#5865F2] border-[#5865F2]/30",
 	},

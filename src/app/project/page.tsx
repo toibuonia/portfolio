@@ -12,19 +12,7 @@ import {
 } from "@/components/ui/card";
 
 const repoLinks = [
-	"https://github.com/idMJA/Soundy",
-	"https://github.com/idMJA/Soundy-Dashboard",
-	"https://github.com/idMJA/portfolio",
-	"https://github.com/idMJA/portfolio-api",
-	"https://github.com/idMJA/accessify",
-	"https://github.com/idMJA/secretify",
-	"https://github.com/idMJA/LavaTools",
-	"https://github.com/idMJA/AgroHygra",
-	"https://github.com/idMJA/lang-bench",
-	"https://github.com/idMJA/WApi",
-	"https://github.com/idMJA/Lyrics",
-	"https://github.com/idMJA/alya-chatbot",
-	"https://github.com/idMJA/youtube-trusted-session-generator",
+	"https://github.com/deocogidau",
 ];
 
 type Project = {
@@ -213,12 +201,12 @@ export default function ProjectPage() {
 
 			<div className="mt-12 text-center">
 				<Link
-					href="https://github.com/idMJA"
+					href="https://discord.com/users/886779922851434516"
 					target="_blank"
 					className="inline-flex items-center gap-2 px-6 py-3 bg-gray-800 hover:bg-gray-700 text-white rounded-lg transition-colors border border-gray-700"
 				>
 					<Github className="w-5 h-5" />
-					View More on GitHub
+					DMs For More
 				</Link>
 			</div>
 		</div>

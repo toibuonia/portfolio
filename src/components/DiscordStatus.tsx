@@ -40,7 +40,7 @@ export default function DiscordStatus() {
 		async function fetchDiscordStatus() {
 			try {
 				const response = await fetch(
-					"https://api.lanyard.rest/v1/users/885731228874051624",
+					"https://api.lanyard.rest/v1/users/886779922851434516",
 				);
 				const json = await response.json();
 				if (json.success) {
